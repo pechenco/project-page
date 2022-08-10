@@ -2,6 +2,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     background-color: #ebe9e9;
+    margin: 0;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
 }
 
 .ul {
@@ -17,6 +25,10 @@ a {
     text-decoration: none;
 }
 
+.first_title {
+    height: 846px;
+}
+
 .group_1 {
     width: 1382px;
     height: 846px;
@@ -27,6 +39,7 @@ a {
     border-color: #101010;
     background-color: #ebe9e9;
     min-height: 64px;
+    height: 114px;
 }
 
 .page-navigation li {
@@ -61,5 +74,101 @@ a {
     border: 2.5px solid black;
     border-radius: 4px;
     padding: 5px 30px;
+    
 }
 
+.main { 
+
+}
+
+.first_header {
+    width: 458px;
+    height: 247px;
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 81.4318px;
+    line-height: 81px;
+    color: #232323;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+
+.first_section_paragraf {
+    width: 456px;
+    height: 60px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.657px;
+    line-height: 20px;
+    margin-left: 130px;
+    margin-bottom: 45px;
+    
+}
+
+.ticket_button {
+    font-family: 'Cardo';
+    margin-left: 130px;
+    width: 256px;
+    height: 54px;
+    background-color: #181818;
+    color: #ebe9e9;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.mountain_img {
+    position: absolute;
+    right: 95px;
+    top: 190px;
+    width: 662px;
+    height: 419px;
+}
+
+.second_title {
+    width: 1574px;
+    height: 1187px;
+}
+
+.travel_logs {
+    background-color: #181818;
+    color: #E9E7E7;
+    text-align: center;
+}
+
+.secont_header {
+    width: 468px;
+    height: 112px;
+    font-family: 'Cardo';
+    font-weight: 700;
+    font-size: 55.3643px;
+    line-height: 55px;
+    margin-left: 560px;
+    margin-bottom: 20px;
+}
+
+.second_section_paragraf {
+    width: 469px;
+    height: 60px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.6421px;
+    line-height: 20px;
+    margin-left: 560px;
+    margin-bottom: 45px;
+}
+
+.button_travel_logs {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20.8377px;
+    line-height: 25px;
+    border: 3px solid #E9E7E7;
+    color: #E9E7E7;
+    margin: 0 45px 45px 45px;
+    border-radius: 4px;
+    padding: 15px 45px;
+}
