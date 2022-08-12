@@ -74,6 +74,7 @@ a {
     border: 2.5px solid black;
     border-radius: 4px;
     padding: 5px 30px;
+    margin-right: -30px;
     
 }
 
@@ -120,7 +121,7 @@ a {
 
 .mountain_img {
     position: absolute;
-    right: 95px;
+    right: 40px;
     top: 190px;
     width: 662px;
     height: 419px;
@@ -177,7 +178,7 @@ a {
     margin-top: 165px;
     display: flex;
     margin-left: 70px;
-    margin-right: 90px;
+    margin-right: 35px;
     justify-content: space-around;
 }
 
@@ -215,11 +216,11 @@ a {
 
 .plain_section {
     width: 975px;
-    height: 930px;
+    height: 830px;
 }
 
 .plain_img {
-    margin: 100px 600px 60px 760px;
+    margin: 100px 0 60px 780px;
 }
 
 .plain_section_header {
@@ -230,10 +231,12 @@ a {
     font-weight: 700;
     font-size: 97.5014px;
     line-height: 98px;
-    margin-left: 460px;
+    margin-left: 480px;
+    margin-top: 10px;
 }
 
 .plain_section_parag {
+    text-align: center;
     width: 677px;
     height: 30px;
     font-family: 'Lato';
@@ -251,4 +254,58 @@ a {
     font-style: oblique;
     /* text-decoration: underline; */
     border-bottom: 7px solid #232323;
+}
+
+.two_mountain {
+    display: flex;
+    padding-left: 125px;
+    padding-right: 125px;
+    width: 1270px;
+    height: 776px;
+}
+
+.body_big_img {
+    height: 776px;
+    width: 564px;
+}
+
+.body_two_mountain {
+    margin-left: 45px;
+}
+
+.two_mountain_second_img {
+    width: 418px;
+    height: 322px;
+    margin-bottom: 50px;
+}
+
+.body_two_mountain_text {
+    display: flex;
+}
+
+.body_text {
+    width: 266px;
+    height: 256px;
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36.5099px;
+    line-height: 50px;
+    text-decoration: underline;
+}
+
+.body_parag {
+    margin-left: 50px;
+    width: 347px;
+    height: 444px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.645px;
+    line-height: 20px;
+}
+
+.arrow {
+    margin-top: 100px;
+    margin-left: 205px;
 }
