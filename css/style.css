@@ -220,7 +220,7 @@ a {
 }
 
 .plain_img {
-    margin: 100px 0 60px 780px;
+    margin: 100px 0 60px 700px;
 }
 
 .plain_section_header {
@@ -231,7 +231,7 @@ a {
     font-weight: 700;
     font-size: 97.5014px;
     line-height: 98px;
-    margin-left: 480px;
+    margin-left: 400px;
     margin-top: 10px;
 }
 
@@ -245,7 +245,7 @@ a {
     font-size: 24.9495px;
     line-height: 30px;
     margin-top: 150px;
-    margin-left: 500px;
+    margin-left: 425px;
     margin-top: 60px;
 }
 
@@ -309,3 +309,90 @@ a {
     margin-top: 100px;
     margin-left: 205px;
 }
+
+.group_five {
+    background-color: #181818;
+    width: 1617px;
+    height: 900px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.group_five_first_text_section {
+    margin-bottom: -150px;
+}
+
+.group_five_header{
+    width: 486px;
+    height: 112px;
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55.4136px;
+    line-height: 55px;
+    color: #E9E7E7;
+    padding-left: 125px;
+    padding-top: 155px;
+}
+
+
+.group_five_text_header {
+    padding-left: 125px;
+    color: #E9E7E7;
+    width: 231.03px;
+    height: 30px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25.0223px;
+    line-height: 30px;
+    margin-top: 105px;
+}
+
+.group_five_text_parag {
+    padding-left: 125px;
+    color: #E9E7E7;
+    width: 483px;
+    height: 281px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.657px;
+    line-height: 20px;
+}
+
+.group_five_text_second_header {
+    padding-left: 125px;
+    color: #E9E7E7;
+    width: 231.03px;
+    height: 30px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25.0223px;
+    line-height: 30px;
+}
+
+.group_five_text_second_parag {
+    padding-left: 125px;
+    color: #E9E7E7;
+    width: 483px;
+    height: 281px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.657px;
+    line-height: 20px;
+}
+
+.group_five_img_section {
+    margin-left: 155px;
+    margin-top: 200px;
+}
+
+.group_five_img {
+    width: 757px;
+    height: 562px;
+}
+
+
