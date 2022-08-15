@@ -1,20 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    background-color: #ebe9e9;
-    margin: 0;
-    
+    background-color: #ebe9e9
 }
 
 button {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    padding: 0;
-}
-
-.ul {
-    margin: 0;
     padding: 0;
 }
 
@@ -31,79 +29,102 @@ input::placeholder {
     color: black
 }
 
+.d-flex {
+    display: flex;
+}
+
+.justify_content {
+    justify-content: space-between;
+}
+
 .margin_top {
     margin-top: 20px;
     background-color: #ebe9e9;
 }
 
-.first_title {
-    height: 846px;
-}
-
-.group_1 {
-    width: 1382px;
-    height: 846px;
-    margin: 0 auto;
-}
-
-.page-navigation {
-    border-color: #101010;
+.section {
     background-color: #ebe9e9;
-    min-height: 64px;
+}
+
+.content {
+
+    display: flex;
+    width: 1226px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 78px;
+    padding: 0 110px;   
+}
+
+.navbar {
+    align-items: center;
+    width: 488px;
+    display: flex;
+    justify-content: space-between;
     height: 114px;
-    margin-left: -170px;
 }
 
-.page-navigation li {
-    float: left;
-    width: 100px;
-}
-
-.style_header {
-    display: block;
-    color: #646467;
-    line-height: 4em;
-    font-weight: bold;
-    text-align: center;
-}
-
-.change_color {
-    display: block;
-    color: black;
-    line-height: 4em;
-    font-weight: bold;
-    text-align: center;
-}
-
-.login {
-    margin: 25px;
+.navbar>ul {
+    padding: 20px 0;
+    display: flex;
+    width: 488px;
+    justify-content: space-between;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 900;
     font-size: 20.8333px;
     line-height: 25px;
-    float: right;
-    border: 2.5px solid black;
-    border-radius: 4px;
-    padding: 5px 30px;
-    margin-right: -120px;
-    
+    color: #646467;
 }
 
-.first_header {
+.navbar>ul>li>a {
+    color: #646467;
+}
+
+.navbar>ul>li:first-child>a{
+    color: #232323;
+}
+
+.button {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20.8333px;
+    line-height: 25px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/* .main {
+    display: flex;
+    width: 1226px;
+    justify-content: space-between;
+} */
+
+.main_textbar {
+    height: 419px;
+}
+
+.header {
     width: 458px;
     height: 247px;
     font-family: 'Cardo';
     font-style: normal;
+    margin-bottom: 22px;
+    color: #232323;
+}
+
+.header__size {
     font-weight: 700;
     font-size: 81.4318px;
     line-height: 81px;
-    color: #232323;
-    margin-left: 130px;
-    margin-bottom: 20px;
 }
 
-.first_section_paragraf {
+.parag {
     width: 456px;
     height: 60px;
     font-family: 'Lato';
@@ -111,39 +132,51 @@ input::placeholder {
     font-weight: 400;
     font-size: 16.657px;
     line-height: 20px;
-    margin-left: 130px;
-    margin-bottom: 45px;
-    
+    margin-bottom: 40px;
 }
 
-.ticket_button {
-    font-family: 'Cardo';
-    margin-left: 130px;
+
+.button__style {
     width: 256px;
     height: 54px;
-    background-color: #181818;
-    color: #ebe9e9;
-    font-size: 20px;
-    border-radius: 10px;
+    color: #E9E7E7;
+    background-color: #232323;
 }
 
 .mountain_img {
-    position: absolute;
-    right: 117px;
-    top: 190px;
     width: 662px;
     height: 419px;
-}
-
-.second_title {
-    /* width: 1574px; */
-    height: 1187px;
 }
 
 .travel_logs {
     background-color: #181818;
     color: #E9E7E7;
     text-align: center;
+}
+
+.header__color {
+    color: #E9E7E7;
+    
+}
+
+.header__size:nth-child(1) {
+    width: 468px;
+    height: 112px;
+    font-size: 55.3643px;
+    line-height: 55px;
+
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.travel_logs>h2 {
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+.travel_logs>p {
+    padding-bottom: 38px;
 }
 
 .secont_header {
@@ -153,20 +186,7 @@ input::placeholder {
     font-weight: 700;
     font-size: 55.3643px;
     line-height: 55px;
-    margin-left: 580px;
     margin-bottom: 20px;
-}
-
-.second_section_paragraf {
-    width: 469px;
-    height: 60px;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16.6421px;
-    line-height: 20px;
-    margin-left: 580px;
-    margin-bottom: 45px;
 }
 
 .button_travel_logs {
@@ -180,7 +200,7 @@ input::placeholder {
     margin: 0 45px 45px 45px;
     border-radius: 4px;
     padding: 15px 45px;
-    margin-left: -25px;
+
 }
 
 .img_collection {
